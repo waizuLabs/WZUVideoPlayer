@@ -1,0 +1,16 @@
+PODS:
+  - ASBPlayerScrubbing (0.1)
+
+DEPENDENCIES:
+  - ASBPlayerScrubbing
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ASBPlayerScrubbing
+
+SPEC CHECKSUMS:
+  ASBPlayerScrubbing: 0fc5e76aad6fdbcf14380734fb7f2c127cd28b66
+
+PODFILE CHECKSUM: 870f2daef09f25660927a48f4a732173e995d727
+
+COCOAPODS: 1.5.3
