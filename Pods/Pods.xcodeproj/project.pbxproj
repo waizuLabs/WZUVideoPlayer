@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0824F18EB6D7E562040C3B3148C00D91 /* ASBPlayerScrubbing.h in Headers */ = {isa = PBXBuildFile; fileRef = 18EDEDAA8B8AC9906FBE39B63E016634 /* ASBPlayerScrubbing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3031B6718B4399181F9DB53568BD2593 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD2709A251651B834F321F9AD8C01C9 /* AVFoundation.framework */; };
+		54E16D3076DCA223F334C4EADC49CFA4 /* Pods-WZUVideoPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0092D55DA0250C51EEB0789FA859529B /* Pods-WZUVideoPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		595283BDA6C0A235D3395C74DBF11621 /* Pods-WZUVideoPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11804B135F3C8C9BEAFA61F39A5BEF0B /* Pods-WZUVideoPlayer-dummy.m */; };
+		6B769BCC3F8C38FD83BE609E2E7B1769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8E8D0558E595530683ECA5DD5BDF14 /* Foundation.framework */; };
+		76FB9A5EB1A83CC8518C986820BE26BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F20184A1A113F1864E2459905FA04C1 /* UIKit.framework */; };
+		9F94215751AD4FF4206B26A7A5A8F4B4 /* ASBPlayerScrubbing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C3F13B79A2EEFB52EF949A246D3DF2 /* ASBPlayerScrubbing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4BF05C4DBF9A6DE7B9B2453DC5975C8 /* ASBPlayerScrubbing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AFFEA7E63B1A2C49E105F790CCCD10 /* ASBPlayerScrubbing-dummy.m */; };
+		C56E6AEE0E9CD7ED09641D5484B1162D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8E8D0558E595530683ECA5DD5BDF14 /* Foundation.framework */; };
+		E1D1E801BF312BFEE545DB5BA844811E /* ASBPlayerScrubbing.m in Sources */ = {isa = PBXBuildFile; fileRef = F15431863CA80D2B2141C349BA1DBF97 /* ASBPlayerScrubbing.m */; };
+		FDA7359A1483BB92287484F15EE516DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D0F3E6A362CBF4209E8E5762DE4BDB /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1EBB86D8FBCF5D88D4C0586BE9BE0E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41795AB25EDBE2E4DE7DEF3AF09DDFEA;
+			remoteInfo = ASBPlayerScrubbing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0092D55DA0250C51EEB0789FA859529B /* Pods-WZUVideoPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZUVideoPlayer-umbrella.h"; sourceTree = "<group>"; };
+		0171ED4140F6E4516EA0D46786DD0A5C /* Pods-WZUVideoPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZUVideoPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		11804B135F3C8C9BEAFA61F39A5BEF0B /* Pods-WZUVideoPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZUVideoPlayer-dummy.m"; sourceTree = "<group>"; };
+		18EDEDAA8B8AC9906FBE39B63E016634 /* ASBPlayerScrubbing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASBPlayerScrubbing.h; path = ASBPlayerScrubbing/ASBPlayerScrubbing.h; sourceTree = "<group>"; };
+		1F46A77568202F2CAF05F86B7BA54E27 /* Pods-WZUVideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZUVideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		3A8E8D0558E595530683ECA5DD5BDF14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3AEF0F6F51E4D9440BCC2D25C18DA314 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BE0DFCB6EDEB209A27799593FFEF95 /* ASBPlayerScrubbing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASBPlayerScrubbing.modulemap; sourceTree = "<group>"; };
+		4B70F5EAD1B816E39219A001847B1EEA /* Pods-WZUVideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZUVideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		4F20184A1A113F1864E2459905FA04C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6627FD15269210A568E089681EAD1700 /* ASBPlayerScrubbing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASBPlayerScrubbing.framework; path = ASBPlayerScrubbing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D992F8CC14189BD893D6E8E9EDAC42 /* Pods-WZUVideoPlayer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZUVideoPlayer-resources.sh"; sourceTree = "<group>"; };
+		81DB2FCDEAF9E17D62A8F3F337615513 /* Pods-WZUVideoPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WZUVideoPlayer.modulemap"; sourceTree = "<group>"; };
+		86EDD7612298F72580C9E1A8D73BF8C8 /* ASBPlayerScrubbing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASBPlayerScrubbing-prefix.pch"; sourceTree = "<group>"; };
+		8A3299F55CFC7F31E4B236F7F66FCE62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0C3F13B79A2EEFB52EF949A246D3DF2 /* ASBPlayerScrubbing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASBPlayerScrubbing-umbrella.h"; sourceTree = "<group>"; };
+		B3D0F3E6A362CBF4209E8E5762DE4BDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		BAF40DB8B5EC7B214DFB933AE5759822 /* Pods-WZUVideoPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZUVideoPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
+		BCD2709A251651B834F321F9AD8C01C9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0FCA8C47BD2E7A30843578FD08D6B82 /* ASBPlayerScrubbing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASBPlayerScrubbing.xcconfig; sourceTree = "<group>"; };
+		E0AFFEA7E63B1A2C49E105F790CCCD10 /* ASBPlayerScrubbing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASBPlayerScrubbing-dummy.m"; sourceTree = "<group>"; };
+		F15431863CA80D2B2141C349BA1DBF97 /* ASBPlayerScrubbing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASBPlayerScrubbing.m; path = ASBPlayerScrubbing/ASBPlayerScrubbing.m; sourceTree = "<group>"; };
+		F760FFBD9D1171CA95B0D1EB5C54A635 /* Pods_WZUVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WZUVideoPlayer.framework; path = "Pods-WZUVideoPlayer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAE2AD096ABA37E247257F615432A3E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3031B6718B4399181F9DB53568BD2593 /* AVFoundation.framework in Frameworks */,
+				FDA7359A1483BB92287484F15EE516DD /* CoreGraphics.framework in Frameworks */,
+				C56E6AEE0E9CD7ED09641D5484B1162D /* Foundation.framework in Frameworks */,
+				76FB9A5EB1A83CC8518C986820BE26BD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD023E8ECBD9E3ADB1685502D7AA2B67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B769BCC3F8C38FD83BE609E2E7B1769 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FE649700BEBE4CA62FC53A77A4BA4E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40BE0DFCB6EDEB209A27799593FFEF95 /* ASBPlayerScrubbing.modulemap */,
+				D0FCA8C47BD2E7A30843578FD08D6B82 /* ASBPlayerScrubbing.xcconfig */,
+				E0AFFEA7E63B1A2C49E105F790CCCD10 /* ASBPlayerScrubbing-dummy.m */,
+				86EDD7612298F72580C9E1A8D73BF8C8 /* ASBPlayerScrubbing-prefix.pch */,
+				B0C3F13B79A2EEFB52EF949A246D3DF2 /* ASBPlayerScrubbing-umbrella.h */,
+				8A3299F55CFC7F31E4B236F7F66FCE62 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ASBPlayerScrubbing";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F3E0A3667DA0CF64C097F6E96A3AAB2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C8FC72058EF2747A1A72E9919C483D9 /* Pods-WZUVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3AEF0F6F51E4D9440BCC2D25C18DA314 /* Info.plist */,
+				81DB2FCDEAF9E17D62A8F3F337615513 /* Pods-WZUVideoPlayer.modulemap */,
+				0171ED4140F6E4516EA0D46786DD0A5C /* Pods-WZUVideoPlayer-acknowledgements.markdown */,
+				BAF40DB8B5EC7B214DFB933AE5759822 /* Pods-WZUVideoPlayer-acknowledgements.plist */,
+				11804B135F3C8C9BEAFA61F39A5BEF0B /* Pods-WZUVideoPlayer-dummy.m */,
+				73D992F8CC14189BD893D6E8E9EDAC42 /* Pods-WZUVideoPlayer-resources.sh */,
+				0092D55DA0250C51EEB0789FA859529B /* Pods-WZUVideoPlayer-umbrella.h */,
+				1F46A77568202F2CAF05F86B7BA54E27 /* Pods-WZUVideoPlayer.debug.xcconfig */,
+				4B70F5EAD1B816E39219A001847B1EEA /* Pods-WZUVideoPlayer.release.xcconfig */,
+			);
+			name = "Pods-WZUVideoPlayer";
+			path = "Target Support Files/Pods-WZUVideoPlayer";
+			sourceTree = "<group>";
+		};
+		2F3E0A3667DA0CF64C097F6E96A3AAB2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BCD2709A251651B834F321F9AD8C01C9 /* AVFoundation.framework */,
+				B3D0F3E6A362CBF4209E8E5762DE4BDB /* CoreGraphics.framework */,
+				3A8E8D0558E595530683ECA5DD5BDF14 /* Foundation.framework */,
+				4F20184A1A113F1864E2459905FA04C1 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3D863E91007007B34E0F7A04367C38BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6627FD15269210A568E089681EAD1700 /* ASBPlayerScrubbing.framework */,
+				F760FFBD9D1171CA95B0D1EB5C54A635 /* Pods_WZUVideoPlayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				EB7598B4F7215DAE305FD8AF474B3174 /* Pods */,
+				3D863E91007007B34E0F7A04367C38BF /* Products */,
+				D9C9B753D43C9174DE36ABBF13D28A6B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D405A2874C684658E79BD98D0C54B436 /* ASBPlayerScrubbing */ = {
+			isa = PBXGroup;
+			children = (
+				18EDEDAA8B8AC9906FBE39B63E016634 /* ASBPlayerScrubbing.h */,
+				F15431863CA80D2B2141C349BA1DBF97 /* ASBPlayerScrubbing.m */,
+				0FE649700BEBE4CA62FC53A77A4BA4E1 /* Support Files */,
+			);
+			name = ASBPlayerScrubbing;
+			path = ASBPlayerScrubbing;
+			sourceTree = "<group>";
+		};
+		D9C9B753D43C9174DE36ABBF13D28A6B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C8FC72058EF2747A1A72E9919C483D9 /* Pods-WZUVideoPlayer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EB7598B4F7215DAE305FD8AF474B3174 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D405A2874C684658E79BD98D0C54B436 /* ASBPlayerScrubbing */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A54B40E8D0E7A824DDA950A1F05D6A15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F94215751AD4FF4206B26A7A5A8F4B4 /* ASBPlayerScrubbing-umbrella.h in Headers */,
+				0824F18EB6D7E562040C3B3148C00D91 /* ASBPlayerScrubbing.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91611E5DDB3F365D85E116705A0C4D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E16D3076DCA223F334C4EADC49CFA4 /* Pods-WZUVideoPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		41795AB25EDBE2E4DE7DEF3AF09DDFEA /* ASBPlayerScrubbing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F8C07B8CA68EFDF900EE11358A1300 /* Build configuration list for PBXNativeTarget "ASBPlayerScrubbing" */;
+			buildPhases = (
+				B88C7E542CF7D8821022B91E2FA2B9AB /* Sources */,
+				CAE2AD096ABA37E247257F615432A3E6 /* Frameworks */,
+				A54B40E8D0E7A824DDA950A1F05D6A15 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASBPlayerScrubbing;
+			productName = ASBPlayerScrubbing;
+			productReference = 6627FD15269210A568E089681EAD1700 /* ASBPlayerScrubbing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56606259121D0EAFB160950FA2FBFBEE /* Pods-WZUVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0692290B75CEFB6C37C31CB617CD60 /* Build configuration list for PBXNativeTarget "Pods-WZUVideoPlayer" */;
+			buildPhases = (
+				FC2398C70C37ED399449C8E2C03A4D62 /* Sources */,
+				DD023E8ECBD9E3ADB1685502D7AA2B67 /* Frameworks */,
+				C91611E5DDB3F365D85E116705A0C4D6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE4090E67C664BC31E9C7C27107BD715 /* PBXTargetDependency */,
+			);
+			name = "Pods-WZUVideoPlayer";
+			productName = "Pods-WZUVideoPlayer";
+			productReference = F760FFBD9D1171CA95B0D1EB5C54A635 /* Pods_WZUVideoPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3D863E91007007B34E0F7A04367C38BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41795AB25EDBE2E4DE7DEF3AF09DDFEA /* ASBPlayerScrubbing */,
+				56606259121D0EAFB160950FA2FBFBEE /* Pods-WZUVideoPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B88C7E542CF7D8821022B91E2FA2B9AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4BF05C4DBF9A6DE7B9B2453DC5975C8 /* ASBPlayerScrubbing-dummy.m in Sources */,
+				E1D1E801BF312BFEE545DB5BA844811E /* ASBPlayerScrubbing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2398C70C37ED399449C8E2C03A4D62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595283BDA6C0A235D3395C74DBF11621 /* Pods-WZUVideoPlayer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE4090E67C664BC31E9C7C27107BD715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASBPlayerScrubbing;
+			target = 41795AB25EDBE2E4DE7DEF3AF09DDFEA /* ASBPlayerScrubbing */;
+			targetProxy = B1EBB86D8FBCF5D88D4C0586BE9BE0E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		65B784A2229E7A0BDAFAA6AE176B0F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F46A77568202F2CAF05F86B7BA54E27 /* Pods-WZUVideoPlayer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZUVideoPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZUVideoPlayer/Pods-WZUVideoPlayer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D4A02C170511683A88015EF18A78A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FCA8C47BD2E7A30843578FD08D6B82 /* ASBPlayerScrubbing.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASBPlayerScrubbing/ASBPlayerScrubbing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASBPlayerScrubbing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ASBPlayerScrubbing/ASBPlayerScrubbing.modulemap";
+				PRODUCT_MODULE_NAME = ASBPlayerScrubbing;
+				PRODUCT_NAME = ASBPlayerScrubbing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7CB093B51D4672EF82EF83DE11AB43F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B70F5EAD1B816E39219A001847B1EEA /* Pods-WZUVideoPlayer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZUVideoPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZUVideoPlayer/Pods-WZUVideoPlayer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B59D34F333E205DF55F8F8F1A258D935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FCA8C47BD2E7A30843578FD08D6B82 /* ASBPlayerScrubbing.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASBPlayerScrubbing/ASBPlayerScrubbing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASBPlayerScrubbing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ASBPlayerScrubbing/ASBPlayerScrubbing.modulemap";
+				PRODUCT_MODULE_NAME = ASBPlayerScrubbing;
+				PRODUCT_NAME = ASBPlayerScrubbing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0692290B75CEFB6C37C31CB617CD60 /* Build configuration list for PBXNativeTarget "Pods-WZUVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B784A2229E7A0BDAFAA6AE176B0F02 /* Debug */,
+				A7CB093B51D4672EF82EF83DE11AB43F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F8C07B8CA68EFDF900EE11358A1300 /* Build configuration list for PBXNativeTarget "ASBPlayerScrubbing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4A02C170511683A88015EF18A78A86 /* Debug */,
+				B59D34F333E205DF55F8F8F1A258D935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
