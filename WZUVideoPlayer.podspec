@@ -16,7 +16,7 @@ s.summary = "WZUVideoPlayer is a Video Player Controller with zoom capabilities 
 s.requires_arc = false
 
 # 2
-s.version = "0.1.0"
+s.version = "0.1.1"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
